@@ -10,7 +10,11 @@ rm LICENCE
 
 # copy files from system folder
 
-cp -p system/usr/share/backgrounds/* /usr/share/backgrounds
+cp -p system/usr/share/backgrounds/* /usr/share/backgrounds/
+
+# configure openbox
+cp /etc/xdg/openbox/rc.xml .config/openbox/rc.xml
+
 # remove system folder
 rm -r system
 
