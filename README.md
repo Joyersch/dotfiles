@@ -6,7 +6,6 @@ This repository is currently being configured. (WIP)
 ## On archiso
 Install git:
 ```shell
-pacman -Sy
 pacman -S git
 ```
 Clone repository:
@@ -30,9 +29,9 @@ cd /home/$USER/
 ```
 Clone repository again:
 ```shell
-git init main
+git init
 git remote add origin https://github.com/Joyersch/dotfiles.git
-git pull
+git pull origin main
 ```
 Run install script (wip):
 ```shell
