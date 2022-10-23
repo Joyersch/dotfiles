@@ -5,7 +5,7 @@ rm user_configuration.json
 rm user_credentials.json
 rm user_disk_layout.json
 rm README.md
-rm LICENCE
+rm LICENSE
 
 
 # copy files from system folder
