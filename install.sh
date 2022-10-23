@@ -9,7 +9,7 @@ rm LICENSE
 
 
 # copy files from system folder
-
+mkdir /usr/share/backgrounds/
 cp -p system/usr/share/backgrounds/* /usr/share/backgrounds/
 
 # configure openbox
