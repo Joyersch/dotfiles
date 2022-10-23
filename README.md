@@ -6,6 +6,7 @@ This repository is currently being configured. (WIP)
 ## On archiso
 Install git:
 ```shell
+pacman -Sy
 pacman -S git
 ```
 Clone repository:
