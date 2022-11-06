@@ -2,39 +2,24 @@ NOTE:
 This repository is currently being configured. (WIP)
 
 # Installation
-(This is for myself in case I forget)
-## On archiso
-Install git:
+This installation is for fedora (36).
+
+## On fedora (36)
+
+### 1. Install updates and the base DE
 ```shell
-pacman -Sy
-pacman -S git
-```
-Clone repository:
-```shell
-git clone https://github.com/Joyersch/dotfiles.git
+sudo dnf upgrade
+sudo dnf install @kde-desktop-enviroment
+sudo dnf remove @workstation-product-enviroment
 ```
 
-Run `archinstall` with the config files (--silent gives me an error?!):
-```shell
-archinstall --config dotfiles/user_configuration.json --creds dotfiles/user_credentials.json --disk_layouts dotfiles/user_disk_layout.json
-```
-In case you said no to chroot:
-```shell
-arch-chroot /mnt/archinstall/
-```
-## on System
-
-Goto user repository ($USER might not work do to root):
-```shell
-cd /home/$USER/
-```
-Clone repository again:
+### 2. Clone repository:
 ```shell
 git init
 git remote add origin https://github.com/Joyersch/dotfiles.git
 git pull origin main
 ```
-Run install script (wip):
+### 3. Run install script:
 ```shell
 sh install.sh
 ```
