@@ -6,6 +6,7 @@ This repository is currently being configured. (WIP)
 ## On archiso
 Install git:
 ```shell
+loadkeys de
 pacman -Sy
 pacman -S git
 ```
@@ -16,7 +17,7 @@ git clone https://github.com/Joyersch/dotfiles.git
 
 Run `archinstall` with the config files (--silent gives me an error?!):
 ```shell
-sh archinstall.sh
+archinstall --config dotfiles/user_configuration.json --creds dotfiles/user_credentials.json --disk_layouts dotfiles/user_disk_layout.json
 ```
 Say no to chroot. Reboot
 
