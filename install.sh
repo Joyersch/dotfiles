@@ -1,5 +1,5 @@
 ## dnf install packages
-dnf install firefox
+sudo dnf install firefox
 
 ## install de theme
 # https://www.opendesktop.org/p/1322311
