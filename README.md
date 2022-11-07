@@ -16,17 +16,15 @@ git clone https://github.com/Joyersch/dotfiles.git
 
 Run `archinstall` with the config files (--silent gives me an error?!):
 ```shell
-archinstall --config dotfiles/user_configuration.json --creds dotfiles/user_credentials.json --disk_layouts dotfiles/user_disk_layout.json
+sh archinstall.sh
 ```
-In case you said no to chroot:
-```shell
-arch-chroot /mnt/archinstall/
-```
+Say no to chroot. Reboot
+
 ## on System
 
-Goto user repository ($USER might not work do to root):
+Goto user repository (should already be there):
 ```shell
-cd /home/$USER/
+cd ~
 ```
 Clone repository again:
 ```shell
@@ -34,7 +32,7 @@ git init
 git remote add origin https://github.com/Joyersch/dotfiles.git
 git pull origin main
 ```
-Run install script (wip):
+Run install script:
 ```shell
 sh install.sh
 ```
