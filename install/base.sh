@@ -15,6 +15,9 @@ pacman -S mbedtls --noconfirm
 # install packages for jetbrain-toolbox
 pacman -S java-runtime fuse libxslt libxss --noconfirm
 
+# set zsh as default
+chsh -s /usr/bin/zsh
+
 # settings permissions for user
 
 # enable services
