@@ -17,9 +17,9 @@ git clone https://github.com/Joyersch/dotfiles.git
 
 Run `archinstall` with the config files (--silent gives me an error?!):
 ```shell
-archinstall --config dotfiles/user_configuration.json --creds dotfiles/user_credentials.json --disk_layouts dotfiles/user_disk_layout.json
+archinstall --config dotfiles/install/user_configuration.json --creds dotfiles/install/user_credentials.json --disk_layouts dotfiles/install/user_disk_layout.json
 ```
-Say no to chroot. Reboot
+Say no to chroot. Reboot.
 
 ## on System
 
@@ -33,7 +33,9 @@ git init
 git remote add origin https://github.com/Joyersch/dotfiles.git
 git pull origin main
 ```
-Run install script:
+Run install and build scripts:
 ```shell
-sh install.sh
+sudo sh /install/base.sh
+sh /install/openrgb.sh
+sh /install/jetbrains-toolbox.sh
 ```

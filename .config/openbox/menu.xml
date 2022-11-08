@@ -5,5 +5,20 @@
                 <command>alacritty</command>
             </action>
         </item>
+        <item label="Firefox">
+            <action name="Execute">
+                <command>firefox</command>
+            </action>
+        </item>
+        <item label="Thunar">
+            <action name="Execute">
+                <command>thunar</command>
+            </action>
+        </item>
+        <item label="Geany">
+            <action name="Execute">
+                <command>geany</command>
+            </action>
+        </item>
     </menu>
 </openbox_menu>
