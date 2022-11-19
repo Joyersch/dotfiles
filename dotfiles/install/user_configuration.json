@@ -101,7 +101,7 @@
   },
   "nic": {
     "dhcp": true,
-    "dns": null,
+    "dns": null,y
     "gateway": null,
     "iface": null,
     "ip": null,
@@ -112,7 +112,7 @@
   "profile": {
     "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/minimal.py"
   },
-  "packages": ["vim", "git", "ttf-dejavu", "sddm", "openbox", "nitrogen", "alacritty", "firefox", "thunar", "geany", "zsh", "obconf" ],
+  "packages": ["vim", "git", "ttf-dejavu", "sddm", "openbox", "nitrogen", "alacritty", "firefox", "thunar", "geany", "zsh", "p7zip" ],
   "script": "guided",
   "silent": false,
   "timezone": "Europe/Berlin",

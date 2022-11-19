@@ -4,7 +4,7 @@ user=$USER
 group=$user
 
 # copy background image
-cp -p system/usr/share/backgrounds/* /usr/share/backgrounds/
+cp -p ~/dotfiles/system/usr/share/backgrounds/* /usr/share/backgrounds/
 chown -R $user:$group /usr/share/backgrounds/
 
 # install packages for openrgb
