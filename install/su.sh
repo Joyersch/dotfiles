@@ -6,9 +6,6 @@ group=$user
 # copy background image
 cp -p system/usr/share/backgrounds/* /usr/share/backgrounds/
 chown -R $user:$group /usr/share/backgrounds/
-# configure openbox
-cp /etc/xdg/openbox/rc.xml .config/openbox/rc.xml
-chown -R $user:$group ./config/openbox/rc.xml
 
 # install packages for openrgb
 pacman -S mbedtls --noconfirm
