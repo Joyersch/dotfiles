@@ -1,6 +1,12 @@
 NOTE:  
 This repository is currently being configured. (WIP)
 
+IMPORTANT:
+The openbox theme is: https://store.kde.org/p/1243562
+Since the upstream is not available anymore I have included it in this repo.
+If someone has a valid upstream, please provide me with said upstream.
+I will remove the file from this repo and add a download script instead.
+
 # Installation
 (This is for myself in case I forget)
 ## On archiso
@@ -35,6 +41,7 @@ git pull origin main
 ```
 Run install and build scripts:
 ```shell
-sudo sh /install/base.sh
+sudo sh /install/su.sh
 sh /install/aur.sh
+sh /install/themes.sh
 ```
