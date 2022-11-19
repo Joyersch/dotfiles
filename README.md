@@ -36,6 +36,5 @@ git pull origin main
 Run install and build scripts:
 ```shell
 sudo sh /install/base.sh
-sh /install/openrgb.sh
-sh /install/jetbrains-toolbox.sh
+sh /install/aur.sh
 ```

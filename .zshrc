@@ -4,7 +4,7 @@
 # Link last worked on 2022-11-19
 PROMPT="%F{128}%n%r%F{135}(%f%F{141}%1~%f%F{135})%f%F{165}$%f "
 # History and stuff
-HISTFILE=~/.histfile
+HISTFILE=~/.cache/zsh/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 setopt autocd extendedglob nomatch
