@@ -1,16 +1,21 @@
-# Created by newuser for 5.9
-# Lines configured by zsh-newuser-install
+
+# For color code use:
+# https://www.tweaking4all.com/software/macosx-software/xterm-color-cheat-sheet/
+# Link last worked on 2022-11-19
+PROMPT="%F{128}%n%r%F{135}(%f%F{141}%1~%f%F{135})%f%F{165}$%f "
+# History and stuff
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 setopt autocd extendedglob nomatch
 unsetopt beep notify
 bindkey -e
-# End of lines configured by zsh-newuser-install
-# The following lines were added by compinstall
-zstyle :compinstall filename '/home/joy/.zshrc'
 
+# Basic auto/tab complete:
 autoload -Uz compinit
+zstyle ':completion:*' menu select
+zmodload zsh/complist
 compinit
-# End of lines added by compinstall
+_comp_options+=(globdots) # hidden files
+
 alias ls='ls --color=auto'
