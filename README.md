@@ -44,6 +44,7 @@ git pull origin main
 ```
 Run install and build scripts:
 ```shell
-sudo sh ~/dotfiles/install/su.sh
-sh ~/dotfiles/install/nosu.sh
+sudo sh ~/dotfiles/install/base.sh
+sh ~/dotfiles/install/aur-build.sh
+sudo sh ~/dotfiles/install/aur-install.sh
 ```
