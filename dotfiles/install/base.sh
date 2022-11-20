@@ -1,6 +1,5 @@
-echo "THIS IS STILL WIP";
-
-user=$USER
+# Edit this in case you want to use a different user name
+user="joy"
 group=$user
 
 # configure sddm

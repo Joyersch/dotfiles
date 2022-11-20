@@ -1,14 +1,13 @@
 NOTE:  
 This repository is currently being configured. (WIP)
-
-IMPORTANT:  
-The openbox theme is:
-
-https://store.kde.org/p/1243562  
-
-Since the upstream is not available anymore I have included it in this repo.  
-If someone has a valid upstream, please provide me with said upstream.  
-I will remove the file from this repo and add a download script instead.  
+# ToDo:
+- alacritty
+  - c+p keybind
+  - back one word keybind
+- openbox
+  - window snapping
+- general
+  - search for application program
 
 # Installation
 (This is for myself in case I forget)
