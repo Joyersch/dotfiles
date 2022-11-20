@@ -112,7 +112,7 @@
   "profile": {
     "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/minimal.py"
   },
-  "packages": ["vim", "git", "ttf-dejavu", "sddm", "openbox", "nitrogen", "alacritty", "firefox", "thunar", "geany", "zsh", "p7zip" ],
+  "packages": ["vim", "git", "ttf-dejavu", "sddm", "openbox", "nitrogen", "alacritty", "firefox", "thunar", "geany", "zsh", "p7zip", "lxappearance", "obconf" ],
   "script": "guided",
   "silent": false,
   "timezone": "Europe/Berlin",

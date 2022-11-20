@@ -3,6 +3,10 @@ echo "THIS IS STILL WIP";
 user=$USER
 group=$user
 
+# configure sddm
+cp -i ~/dotfiles/system/etc/sddm.conf /etc/sddm.conf
+cp -R ~/dotfiles/system/usr/share/sddm/themes/* /usr/share/sddm/themes/
+
 # copy background image
 cp -p ~/dotfiles/system/usr/share/backgrounds/* /usr/share/backgrounds/
 chown -R $user:$group /usr/share/backgrounds/
