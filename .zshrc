@@ -18,4 +18,4 @@ zmodload zsh/complist
 compinit
 _comp_options+=(globdots) # hidden files
 
-alias ls='ls --color=auto'
+alias ls='ls -a --color=auto'
