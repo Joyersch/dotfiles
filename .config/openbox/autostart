@@ -1,2 +1,3 @@
 ## restore wallpaper
-nitrogen --restore
+nitrogen --restore &
+polybar -c ~/.config/openbox/polybar/config.ini
