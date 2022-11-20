@@ -23,3 +23,4 @@ chsh -s /usr/bin/zsh
 
 # enable services
 systemctl enable sddm -f
+systemctl enable syncthing@$user.service

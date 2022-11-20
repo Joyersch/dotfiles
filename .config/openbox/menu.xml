@@ -20,5 +20,15 @@
                 <command>geany</command>
             </action>
         </item>
+        <item label="Keepass">
+            <action name="Execute">
+                <command>kepassxc</command>
+            </action>
+        </item>
+        <item label="Syncthing">
+            <action name="Execute">
+                <command>firefox localhost:8384</command>
+            </action>
+        </item>
     </menu>
 </openbox_menu>
