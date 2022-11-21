@@ -6,7 +6,8 @@ This repository is currently being configured. (WIP)
   - back one word keybind
 
 # Image
-![img](README.assets/1669023061.png)
+![img](README.assets/1669023061.png)  
+
 # Installation
 (This is for myself in case I forget)
 ## On archiso
