@@ -4,10 +4,6 @@ This repository is currently being configured. (WIP)
 - alacritty
   - c+p keybind
   - back one word keybind
-- openbox
-  - window snapping
-- general
-  - search for application program
 
 # Installation
 (This is for myself in case I forget)

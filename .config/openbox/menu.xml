@@ -22,7 +22,7 @@
         </item>
         <item label="Keepass">
             <action name="Execute">
-                <command>kepassxc</command>
+                <command>keepassxc</command>
             </action>
         </item>
         <item label="Syncthing">
