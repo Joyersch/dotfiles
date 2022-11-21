@@ -5,6 +5,8 @@ This repository is currently being configured. (WIP)
   - c+p keybind
   - back one word keybind
 
+# Image
+![img](README.assets/1669023061.png)
 # Installation
 (This is for myself in case I forget)
 ## On archiso
