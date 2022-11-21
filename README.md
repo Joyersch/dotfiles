@@ -5,7 +5,7 @@ This repository is currently being configured. (WIP)
   - c+p keybind
   - back one word keybind
 
-# Image
+# Image (contains extra stuff)
 ![img](README.assets/1669023061.png)  
 
 # Installation
