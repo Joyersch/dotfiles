@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Neon Knights Violet
+Comment=Neon Dark Theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+Name=Neon Knights Violet
+GtkTheme=Neon_Knights_Violet
+MetacityTheme=Neon_Knights_Violet
+IconTheme=Neon-Knights-Violet-Folders
+CursorTheme=DMZ-White
+ButtonLayout=:minimize,maximize,close
+
