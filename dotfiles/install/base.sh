@@ -15,6 +15,9 @@ pacman -S mbedtls --noconfirm
 # install packages for jetbrain-toolbox
 pacman -S java-runtime fuse libxslt libxss --noconfirm
 
+# install packages for cava
+sudo pacman -S alsa-lib fftw iniparser ncurses portaudio sndio libpulse --noconfirm
+
 # set zsh as default
 chsh -s /usr/bin/zsh
 

@@ -6,7 +6,8 @@ This repository is currently being configured. (WIP)
   - back one word keybind
 
 # Image (contains extra stuff)
-![img](README.assets/1669023061.png)  
+![img](README.assets/img0.png)  
+![img](README.assets/img1.png)
 
 # Installation
 (This is for myself in case I forget)
