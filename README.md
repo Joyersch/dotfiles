@@ -8,8 +8,9 @@ This repository is currently being configured. (WIP)
 
 - Firefox theme
   - https://addons.mozilla.org/en-US/firefox/addon/purple-twinkle/
-- Jetbrains theme
-  - https://plugins.jetbrains.com/plugin/16193-prpl-theme
+- Jetbrains themes
+  - https://plugins.jetbrains.com/plugin/16193-prpl-theme [screenshot]
+  - https://plugins.jetbrains.com/plugin/16508-functional-purple-ui-theme [current]
 
 # Image (contains extra stuff)
 ![img](README.assets/img0.png)  

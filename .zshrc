@@ -19,3 +19,21 @@ compinit
 _comp_options+=(globdots) # hidden files
 
 alias ls='ls -a --color=auto'
+
+# keybinds
+
+bindkey ";5D" backward-word
+bindkey ";5C" forward-word
+bindkey "\E[3~" delete-char
+
+copy () {
+  zle copy-region-as-kill
+  print -rn $CUTBUFFER | xsel -i -b
+}
+zle -N copy
+paste () {
+  xsel --clipboard --output
+}
+zle -N paste
+bindkey "^C" copy
+bindkey "^V" paste
