@@ -32,7 +32,8 @@ git clone https://github.com/Joyersch/dotfiles.git
 
 Run `archinstall` with the config files (--silent gives me an error?!):
 ```shell
-archinstall --config dotfiles/install/user_configuration.json --creds dotfiles/install/user_credentials.json --disk_layouts dotfiles/install/user_disk_layout.json
+cd dotfiles/dotfiles
+archinstall --config /install/user_configuration.json --creds /install/user_credentials.json --disk_layouts /install/user_disk_layout.json
 ```
 Say no to chroot. Reboot.
 
@@ -53,4 +54,5 @@ Run install and build scripts:
 sudo sh ~/dotfiles/install/base.sh
 sh ~/dotfiles/install/aur-build.sh
 sudo sh ~/dotfiles/install/aur-install.sh
+chsh -s /usr/bin/zsh
 ```
