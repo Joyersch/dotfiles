@@ -18,28 +18,19 @@ zmodload zsh/complist
 compinit
 _comp_options+=(globdots) # hidden files
 
+# aliases
 alias ls='ls -a --color=auto'
 
 # keybinds
 
 # https://unix.stackexchange.com/questions/51933/zsh-copy-and-paste-like-emacs#51938
-x-copy-region-as-kill () {
-  zle copy-region-as-kill
-  print -rn $CUTBUFFER | xsel -i -b
-}
-zle x-copy-region-as-kill
-x-kill-region () {
-  zle kill-region
-  print -rn $CUTBUFFER | xsel -i -b
-}
-zle x-kill-region
 x-yank () {
   CUTBUFFER=$(xsel -o -b </dev/null)
   zle yank
+  zle reset-prompt
+
 }
-zle x-yank
-bindkey -e '^C' x-copy-region-as-kill
-bindkey -e '^X' x-kill-region
+zle -N x-yank
 bindkey -e '^V' x-yank
 
 
