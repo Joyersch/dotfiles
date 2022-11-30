@@ -3,11 +3,11 @@ user="joy"
 group=$user
 
 # configure sddm
-cp -i ~/dotfiles/system/etc/sddm.conf /etc/sddm.conf
+cp -i dotfiles/system/etc/sddm.conf /etc/sddm.conf
 
 # copy background image(s)
 mkdir /usr/share/backgrounds/
-cp -p ~/dotfiles/system/usr/share/backgrounds/* /usr/share/backgrounds/
+cp -p dotfiles/system/usr/share/backgrounds/* /usr/share/backgrounds/
 chown -R $user:$group /usr/share/backgrounds/
 
 # install packages for openrgb
