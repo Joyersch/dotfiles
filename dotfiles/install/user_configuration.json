@@ -101,7 +101,7 @@
   },
   "nic": {
     "dhcp": true,
-    "dns": null,y
+    "dns": null,
     "gateway": null,
     "iface": null,
     "ip": null,
