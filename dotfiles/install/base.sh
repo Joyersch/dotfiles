@@ -19,9 +19,6 @@ pacman -S java-runtime fuse libxslt libxss --noconfirm
 # install packages for cava
 sudo pacman -S alsa-lib fftw iniparser ncurses portaudio sndio libpulse --noconfirm
 
-# set zsh as default
-chsh -s /usr/bin/zsh
-
 # settings permissions for user
 
 # enable services
