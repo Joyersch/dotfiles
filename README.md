@@ -1,6 +1,6 @@
 NOTE:  
 This is the "General" Branch which will probl. Not recieve many Updates.  
-Check the other branches for an updated version.
+Check the other branches for an updated versiom.
 # ToDo:
 - alacritty
   - c+p keybind
