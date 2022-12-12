@@ -1,10 +1,7 @@
 NOTE:  
 This is the "General" Branch which will probl. Not recieve many Updates.  
 Check the other branches for an updated version.
-# ToDo:
-- alacritty
-  - c+p keybind
-  - back one word keybind
+
 # Other stuff not in this repo:
 
 - Firefox theme
