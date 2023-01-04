@@ -20,7 +20,9 @@ _comp_options+=(globdots) # hidden files
 
 # aliases
 alias ls='ls -a --color=auto'
-
+#ä https://github.com/Joyersch/SteamAchievementAnalytics
+alias saa='SteamAchievementAnalytics'
+alias saas='SteamAchievementAnalytics -lf ~/files/joyersch-steam.json'
 # keybinds
 
 # https://unix.stackexchange.com/questions/51933/zsh-copy-and-paste-like-emacs#51938

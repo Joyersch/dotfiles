@@ -1,4 +1,6 @@
 ## restore wallpaper
-xrandr --output DP-3 --primary --output DP-1 --left-of DP-3 --output DP-2 --right-of DP-3
+xrandr --output DP-3 --primary --output DP-1 --left-of DP-3 --output DP-2 --right-of DP-3 --scale 1.5x1.5
 nitrogen --restore &
+openrgb -p "Dark Purple.orp" &
 polybar -c ~/.config/openbox/polybar/config.ini
+pactl load-module module-loopback source=alsa_input.pci-0000_31_00.4.analog-stereo

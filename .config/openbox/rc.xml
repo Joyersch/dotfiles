@@ -25,7 +25,7 @@
            mouse into it, also raise the window -->
   </focus>
   <placement>
-    <policy>Smart</policy>
+    <policy>UnderMouse</policy>
     <!-- 'Smart' or 'UnderMouse' -->
     <center>yes</center>
     <!-- whether to place windows in the center of the free area found or
@@ -372,6 +372,11 @@
     <keybind key="W-k">
       <action name="Execute">
         <command>keepassxc</command>
+      </action>
+    </keybind>
+    <keybind key="W-S-s">
+      <action name="Execute">
+        <command>flameshot gui</command>
       </action>
     </keybind>
     <!-- Rofi -->
