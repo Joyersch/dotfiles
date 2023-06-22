@@ -10,7 +10,7 @@ echo "[chaotic-aur]" >> /etc/pacman.conf
 echo "Include = /etc/pacman.d/chaotic-mirrorlist" >> /etc/pacman.conf
 
 # packages
-pacman -S syncthing alacritty openbox thunar nitrogen --noconfirm
+pacman -S syncthing alacritty openbox thunar nitrogen obconf --noconfirm
 
 # packages /chaotic-aur
 pacman -S firedragon jetbrains-toolbox --noconfirm

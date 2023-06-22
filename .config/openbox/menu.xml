@@ -5,9 +5,9 @@
                 <command>alacritty</command>
             </action>
         </item>
-        <item label="Firefox">
+        <item label="Browser">
             <action name="Execute">
-                <command>firefox</command>
+                <command>firedragon</command>
             </action>
         </item>
         <item label="Thunar">
