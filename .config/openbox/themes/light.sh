@@ -6,6 +6,7 @@ echo "  - ~/.config/alacritty/themes/themes/ayu_light.yaml" >> ~/.config/alacrit
 cp ~/.config/openbox/themes/gtk_light.ini ~/.config/gtk-3.0/settings.ini
 cp ~/.config/openbox/themes/poly_light.ini ~/.config/openbox/polybar/config.ini
 cp ~/.config/openbox/themes/geany_light.conf ~/.config/geany/geany.conf
+cp ~/.config/openbox/themes/rofi_colors_light.conf ~/.config/openbox/rofi/shared/colors.rasi
 #reload
 openbox --reconfigure
 killall polybar
