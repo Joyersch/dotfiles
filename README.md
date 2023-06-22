@@ -11,29 +11,11 @@ Check the other branches for an updated version.
   - https://plugins.jetbrains.com/plugin/16508-functional-purple-ui-theme [current]
 
 # Image (contains extra stuff)
-![img](README.assets/img0.png)  
-![img](README.assets/img1.png)
+![img](README.assets/dark_desktop.png)  
+![img](README.assets/pink_desktop.png)
 
 # Installation
 (This is for myself in case I forget)
-## On archiso
-Install git:
-```shell
-loadkeys de
-pacman -Sy
-pacman -S git
-```
-Clone repository:
-```shell
-git clone https://github.com/Joyersch/dotfiles.git
-```
-
-Run `archinstall` with the config files (--silent gives me an error?!):
-```shell
-cd dotfiles/dotfiles
-archinstall --config /install/user_configuration.json --creds /install/user_credentials.json --disk_layouts /install/user_disk_layout.json
-```
-Say no to chroot. Reboot.
 
 ## on System
 
@@ -49,8 +31,6 @@ git pull origin main
 ```
 Run install and build scripts:
 ```shell
-sudo sh ~/dotfiles/install/base.sh
-sh ~/dotfiles/install/aur-build.sh
-sudo sh ~/dotfiles/install/aur-install.sh
-chsh -s /usr/bin/zsh
+sudo sh ~/install/install.sh
+sh ~/install/cleanup.sh
 ```
