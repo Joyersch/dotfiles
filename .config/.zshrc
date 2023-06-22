@@ -2,6 +2,7 @@
 # For color code use:
 # https://www.tweaking4all.com/software/macosx-software/xterm-color-cheat-sheet/
 # Link last worked on 2022-11-19
+source /zsh/dark
 PROMPT="%F{128}%n%r%F{135}(%f%F{141}%1~%f%F{135})%f%F{165}$%f "
 # History and stuff
 HISTFILE=~/.cache/zsh/.histfile
