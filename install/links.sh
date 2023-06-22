@@ -1,0 +1,1 @@
+ln -s ~/.config/sddm/sddm.conf /etc/sddm.conf
