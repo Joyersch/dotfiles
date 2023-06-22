@@ -1,0 +1,1 @@
+echo "source ~/.config/zsh/light" > ~/.config/zsh/theme

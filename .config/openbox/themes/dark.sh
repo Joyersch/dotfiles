@@ -1,0 +1,1 @@
+echo "source ~/.config/zsh/dark" > ~/.config/zsh/theme
