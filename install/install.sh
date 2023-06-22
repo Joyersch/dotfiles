@@ -1,7 +1,7 @@
 user="joy"
 # links
 ln -s ~/.config/sddm/sddm.conf /etc/sddm.conf
-ln -s ~/.config/.zshrc ~/.zshrc
+ln -s home/joy/.config/.zshrc /home/joy/.zshrc
 # chaotic-aur
 pacman-key --recv-key 3056513887B78AEB --keyserver keyserver.ubuntu.com
 pacman-key --lsign-key 3056513887B78AEB
