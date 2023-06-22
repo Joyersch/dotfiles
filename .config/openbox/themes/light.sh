@@ -1,9 +1,12 @@
 echo "source ~/.config/zsh/light" > ~/.config/zsh/theme
-nitrogen --set-zoom-file ~/.backgrounds/light_pink.png
+nitrogen --set-zoom-fill ~/.backgrounds/light_pink.png
 xmlstarlet ed -L -N a="http://openbox.org/3.4/rc" -u '/a:openbox_config/a:theme/a:name' -v "light" ~/.config/openbox/rc.xml
 echo "import:" > ~/.config/alacritty/alacritty.yml
 echo "  - ~/.config/alacritty/themes/themes/ayu_light.yaml" >> ~/.config/alacritty/alacritty.yml
 cp ~/.config/openbox/themes/gtk_light.ini ~/.config/gtk-3.0/settings.ini
+cp ~/.config/openbox/themes/poly_light.ini ~/.config/openbox/polybar/config.ini
 #reload
 openbox --reconfigure
+killall polybar
+polybar -c ~/.config/openbox/polybar/config.ini &
 . ~/.zshrc
