@@ -15,6 +15,15 @@ pacman -S syncthing alacritty openbox thunar nitrogen obconf --noconfirm
 # packages /chaotic-aur
 pacman -S firedragon jetbrains-toolbox --noconfirm
 
+# themes
+mkdir ~/.themes
+git clone https://github.com/addy-dclxvi/openbox-theme-collections.git ~/.themes/light.d
+git clone https://github.com/dracula/openbox.git ~/.themes/dark.d
+cp -r ~/.themes/dark.d/Dracula-withoutBorder ~/.themes/dark
+rm -r ~/.themes/dark.d
+cp -r ~/.themes/light.d/Leve-Lavender ~/.themes/light
+rm -r ~/.themes/light.d
+
 # services
 systemctl enable sddm -f
 systemctl enable syncthing@$user.service
