@@ -7,6 +7,7 @@ cp ~/.config/openbox/themes/gtk_dark.ini ~/.config/gtk-3.0/settings.ini
 cp ~/.config/openbox/themes/poly_dark.ini ~/.config/openbox/polybar/config.ini
 cp ~/.config/openbox/themes/geany_dark.conf ~/.config/geany/geany.conf
 cp ~/.config/openbox/themes/rofi_colors_dark.rasi ~/.config/openbox/rofi/shared/colors.rasi
+cp ~/.config/openbox/themes/cava_dark_config ~/.config/cava/config
 #reload
 openbox --reconfigure
 killall polybar

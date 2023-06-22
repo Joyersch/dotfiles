@@ -382,6 +382,11 @@
         <command>sh ~/.config/openbox/themes/light.sh</command>
       </action>
     </keybind>
+    <keybind key="W-S-s">
+      <action name="Execute">
+        <command>flameshot gui</command>
+      </action>
+    </keybind>
     <!-- Rofi -->
     <keybind key="A-F1">
       <action name="Execute">
