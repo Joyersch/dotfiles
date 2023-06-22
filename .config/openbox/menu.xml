@@ -27,7 +27,17 @@
         </item>
         <item label="Syncthing">
             <action name="Execute">
-                <command>firefox localhost:8384</command>
+                <command>firedragon localhost:8384</command>
+            </action>
+        </item>
+        <item label="Dark">
+            <action name="Execute">
+                <command>sh ~/.config/openbox/themes/dark.sh</command>
+            </action>
+        </item>
+        <item label="Light">
+            <action name="Execute">
+                <command>sh ~/.config/openbox/themes/light.sh</command>
             </action>
         </item>
     </menu>
