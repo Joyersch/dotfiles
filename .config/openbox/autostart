@@ -1,3 +1,4 @@
 ## restore wallpaper
 nitrogen --restore &
 polybar -c ~/.config/openbox/polybar/config.ini
+sh ~/.screenlayout/4monitor.sh

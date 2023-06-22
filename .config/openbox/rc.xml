@@ -58,7 +58,7 @@
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
       <name>sans</name>
-      <size>14</size>
+      <size>24</size>
       <!-- font size in points -->
       <weight>bold</weight>
       <!-- 'bold' or 'normal' -->
@@ -67,7 +67,7 @@
     </font>
     <font place="InactiveWindow">
       <name>sans</name>
-      <size>14</size>
+      <size>24</size>
       <!-- font size in points -->
       <weight>bold</weight>
       <!-- 'bold' or 'normal' -->
@@ -76,7 +76,7 @@
     </font>
     <font place="MenuHeader">
       <name>sans</name>
-      <size>16</size>
+      <size>26</size>
       <!-- font size in points -->
       <weight>normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -85,7 +85,7 @@
     </font>
     <font place="MenuItem">
       <name>sans</name>
-      <size>16</size>
+      <size>26</size>
       <!-- font size in points -->
       <weight>normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -94,7 +94,7 @@
     </font>
     <font place="ActiveOnScreenDisplay">
       <name>sans</name>
-      <size>16</size>
+      <size>26</size>
       <!-- font size in points -->
       <weight>bold</weight>
       <!-- 'bold' or 'normal' -->
@@ -103,7 +103,7 @@
     </font>
     <font place="InactiveOnScreenDisplay">
       <name>sans</name>
-      <size>16</size>
+      <size>26</size>
       <!-- font size in points -->
       <weight>bold</weight>
       <!-- 'bold' or 'normal' -->
@@ -125,8 +125,6 @@
     <names>
       <name>[1]</name>
       <name>[2]</name>
-      <name>[3]</name>
-      <name>[4]</name>
     </names>
     <popupTime>875</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
@@ -372,6 +370,16 @@
     <keybind key="W-k">
       <action name="Execute">
         <command>keepassxc</command>
+      </action>
+    </keybind>
+    <keybind key="W-S-d">
+      <action name="Execute">
+        <command>sh ~/.config/openbox/themes/dark.sh</command>
+      </action>
+    </keybind>
+    <keybind key="W-S-l">
+      <action name="Execute">
+        <command>sh ~/.config/openbox/themes/light.sh</command>
       </action>
     </keybind>
     <!-- Rofi -->
