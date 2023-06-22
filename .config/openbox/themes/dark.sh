@@ -5,6 +5,7 @@ echo "import:" > ~/.config/alacritty/alacritty.yml
 echo "  - ~/.config/alacritty/themes/themes/ayu_dark.yaml" >> ~/.config/alacritty/alacritty.yml
 cp ~/.config/openbox/themes/gtk_dark.ini ~/.config/gtk-3.0/settings.ini
 cp ~/.config/openbox/themes/poly_dark.ini ~/.config/openbox/polybar/config.ini
+cp ~/.config/openbox/themes/geany_dark.conf ~/.config/geany/geany.conf
 #reload
 openbox --reconfigure
 killall polybar

@@ -13,7 +13,7 @@ echo "[chaotic-aur]" >> /etc/pacman.conf
 echo "Include = /etc/pacman.d/chaotic-mirrorlist" >> /etc/pacman.conf
 
 # packages
-pacman -S syncthing alacritty openbox thunar nitrogen obconf xmlstarlet lxappearance gtk-engine-murrine --noconfirm
+pacman -S syncthing alacritty openbox thunar nitrogen obconf xmlstarlet lxappearance gtk-engine-murrine polybar geany --noconfirm
 
 # packages /chaotic-aur
 pacman -S firedragon jetbrains-toolbox --noconfirm
