@@ -1,18 +1,16 @@
 NOTE:  
-This is the "General" Branch which will probl. Not recieve many Updates.  
-Check the other branches for an updated version.
+This is the "Laptop" Branch which is for my laptop. 
+Check the other branches for different versions.
 
-# Other stuff not in this repo:
-
-- Firefox theme
-  - https://addons.mozilla.org/en-US/firefox/addon/purple-twinkle/
-- Jetbrains themes
-  - https://plugins.jetbrains.com/plugin/16193-prpl-theme [screenshot]
-  - https://plugins.jetbrains.com/plugin/16508-functional-purple-ui-theme [current]
-
-# Image (contains extra stuff)
+# Images
 ![img](README.assets/dark_desktop.png)  
 ![img](README.assets/pink_desktop.png)
+
+# Themes for software:
+
+- Jetbrains themes
+  - https://plugins.jetbrains.com/plugin/12100-dark-purple-theme
+  - https://plugins.jetbrains.com/plugin/16721-cute-pink-light-theme
 
 # Installation
 (This is for myself in case I forget)
