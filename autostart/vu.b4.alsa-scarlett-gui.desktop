@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=ALSA Scarlett2 Control Panel
+Icon=vu.b4.alsa-scarlett-gui
+Exec=/usr/local/bin/alsa-scarlett-gui
+Categories=GTK;AudioVideo;Audio;Mixer;
+Keywords=focusrite;
