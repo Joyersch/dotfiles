@@ -27,3 +27,8 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 sh /home/joy/.config/wal/randwal
+sh /home/joy/.config/openrgb/apply.sh
+
+export MGFXC_WINE_PATH=/home/joy/.winemonogame
+
+export MGFXC_WINE_PATH=/home/joy/.winemonogame
